@@ -1,0 +1,159 @@
+body
+{
+background-color: #f2f2f2;
+}
+#text1
+{
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#email
+{
+
+    height: 20px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    
+}
+#password
+{
+    
+    height: 20px;
+}
+.main 
+{
+    margin-top:40px;
+    margin-left: 62px;
+   
+    width: min-content;
+   height: min-content;
+      
+}
+
+.registr
+{
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 530px;
+    width: 300px;
+    height: 400px;
+    border: 2px solid #ffffff;
+   background-color: rgb(255, 255, 255);
+   
+}
+#sign
+{
+    font-size: la;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 5px;
+    background: linear-gradient(to left, #1992e4,
+    #fff94c, #1992e4);
+    text-decoration: none;
+    background-size: 200%;
+    transition: 0.5s;
+
+}
+#sign:hover {
+    background-position: right;
+}
+
+#newRegistr
+{
+    font-size: 18px;
+    cursor: pointer;
+    width: max-content;
+    height: 30px;
+    border: 1px;
+    border-radius: 5px;
+     background: linear-gradient(to left, #1992e4,
+    #fff94c, #1992e4);
+    text-decoration: none;
+     background-size: 200%;
+     transition: 0.5s;
+    margin-left: -20px;
+   
+}
+#newRegistr:hover {
+        background-position: right;
+    }
+.buttons
+{ 
+   
+    margin-top: 20px;
+    margin-left: 70px;
+    width: min-content;
+    height: min-content;
+}
+#politic-conf
+{
+    margin-top: 140px;
+}
+.text 
+{
+    font-size: 12px;
+}
+#politics
+{ 
+    
+    margin-top: -18px;
+    margin-left: 13px;
+}
+#politic-conf-href
+{
+    color: rgb(103, 158, 235);
+    
+}
+#main-pere
+{
+    color: black;
+    text-decoration: none;
+}
+@media 
+(max-width: 475px) {
+    .registr
+    {
+     margin-left: 70px;
+    }
+
+}
+@media (max-width: 375px) {
+
+    .registr
+    {
+        width: 200px ;
+    
+        margin-top: 0px;
+        margin-left: 80px;
+    }
+    #email
+    {
+        width: 80px;
+    }
+    #password
+    {
+        width: 80px;
+    }
+    
+    #sign
+    {
+        width: 60px;
+        font-size: 14px;
+        margin-left: -0px;
+    }
+    #newRegistr
+    {
+        width: 120px;
+        font-size: 14px;
+    }
+    #politic-conf
+{
+    margin-top: 100px;
+}
+}
